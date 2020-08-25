@@ -9,8 +9,7 @@ class Task {
     }
 
 }
-//End of Task Class
-
+//End of 'Task' Class
 
 
 class TaskManager {
@@ -75,8 +74,7 @@ class TaskManager {
 
     }
 }
-//End of Task Manager Class
-
+//End of 'Task Manager' Class
 
 
 // Accessing the DOM element to append bootsrap card
@@ -85,11 +83,8 @@ const taskContainer = document.querySelector("#tskContainer");
 var taskAdmin = new TaskManager(taskContainer);
 
 
-
 //Loading Tasks from Storage.
 displayTasksFromStorage();
-
-
 
 
 // Add task button click event listener. when clicked on 'Add Task' button, the label for the model has to change it back to 'Add Task'
