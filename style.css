@@ -1,0 +1,14 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.card-header, .nav, .modal-header {
+    background-color: lavender;
+}
+
+#plannerHeading {
+    background-color: lavender;
+    text-align: center;
+}
+ 
